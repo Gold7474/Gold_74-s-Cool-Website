@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/booty-scooty.gif");
+    background-image: url("https://media3.giphy.com/media/2ON93ykYH33ar61e0B/giphy.gif?cid=790b7611c47a73c30425cd790dda09bae33d7a1d1c07c2e2&rid=giphy.gif&ct=g");
     animation: bgScroll 20s linear infinite;
 }
 main, footer {
@@ -12,6 +12,6 @@ main, footer {
         background-position : 0px 0px
     }
     100% {
-        background-position : 0px -512px
+        background-position : -1280px -360px
     }
 }
