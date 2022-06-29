@@ -47,3 +47,7 @@ h1 {
     padding-top: 50px;
     padding-bottom: 10px;
 }
+.welcomecenter {
+    font-size: 2vw;
+    text-align: center;
+}
