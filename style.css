@@ -2,7 +2,7 @@ body {
     background-color: yellow;
 }
 main, footer {
-    background-color: black;
     color: white;
+    background-color: black;
     text-align: center;
 }
