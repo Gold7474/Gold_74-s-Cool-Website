@@ -1,8 +1,17 @@
 body {
-    background-color: yellow;
+    background-image: url("images/poop-time.gif");
+    animation: bgScroll 20s linear infinite;
 }
 main, footer {
     color: white;
     background-color: black;
     text-align: center;
+}
+@keyframes bgScroll {
+    0% {
+        background-position : 0px 0px
+    }
+    100% {
+        background-position : 0px -512px
+    }
 }
