@@ -49,6 +49,7 @@ h1 {
 }
 .welcomecenter {
     font-size: 2vw;
+    word-wrap: break-word;
     text-align: center;
 }
 .videotitlepadding {
