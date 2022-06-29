@@ -16,7 +16,7 @@ main, footer {
     color: white;
     background-color: black;
     text-align: center;
-    width: 90%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -43,11 +43,17 @@ h1 {
     margin: 0;
     padding-top: 10px;
 }
-.downloadpadding {
+.simplepadding {
     padding-top: 50px;
     padding-bottom: 10px;
 }
 .welcomecenter {
     font-size: 2vw;
     text-align: center;
+}
+.videotitlepadding {
+    padding-top: 180px;
+}
+.videopadding {
+    padding-bottom: 50px;
 }
