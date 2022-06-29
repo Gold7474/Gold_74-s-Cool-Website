@@ -1,11 +1,23 @@
 body {
     background-image: url("https://media3.giphy.com/media/2ON93ykYH33ar61e0B/giphy.gif?cid=790b7611c47a73c30425cd790dda09bae33d7a1d1c07c2e2&rid=giphy.gif&ct=g");
     animation: bgScroll 20s linear infinite;
+    margin: 0;
+    padding: 0;
+}
+marquee {
+    font-size: 40px;
+    margin: 0 auto;
+}
+header {
+    height: 53px;
 }
 main, footer {
     color: white;
     background-color: black;
     text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 @keyframes bgScroll {
     0% {
@@ -14,4 +26,18 @@ main, footer {
     100% {
         background-position : -1280px -720px
     }
+}
+.alerts {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    margin: 0;
 }
