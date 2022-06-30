@@ -84,6 +84,9 @@ h1 {
     cursor: pointer;
     text-decoration: none;
 }
+.indexbuttons:hover {
+    background-color: gray;
+}
 a {
     text-decoration: none;
     color: inherit;
