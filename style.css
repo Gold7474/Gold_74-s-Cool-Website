@@ -8,6 +8,7 @@ marquee {
     font-size: 40px;
     margin: 0 auto;
     cursor: pointer;
+    display: block;
 }
 header {
     height: 110px;
