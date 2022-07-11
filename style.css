@@ -32,6 +32,10 @@ main, footer {
     margin-top: auto;
     margin-bottom: auto;
 }
+.newsdivider {
+    color: gray;
+    border: dotted 1px;
+}
 .center {
     display: block;
     margin-left: auto;
