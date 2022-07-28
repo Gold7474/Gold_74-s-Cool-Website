@@ -97,3 +97,8 @@ a {
     width: auto;
     height: auto;
 }
+ul {
+    text-align: left;
+    list-style-position:inside;
+    color: white;
+}
