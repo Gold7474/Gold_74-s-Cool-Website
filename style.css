@@ -1,21 +1,9 @@
+/*Makes the background of the page have repeating gifs and move up and to the left*/
 body {
     background-image: url("https://media3.giphy.com/media/2ON93ykYH33ar61e0B/giphy.gif?cid=790b7611c47a73c30425cd790dda09bae33d7a1d1c07c2e2&rid=giphy.gif&ct=g");
     animation: bgScroll 20s linear infinite;
     margin: 0;
     padding: 0;
-}
-marquee {
-    font-size: 40px;
-    margin: 0 auto;
-    cursor: pointer;
-    display: block;
-}
-main, footer {
-    color: white;
-    background: rgba(0, 0, 0, 0.8);
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 @keyframes bgScroll {
     0% {
@@ -24,6 +12,19 @@ main, footer {
     100% {
         background-position : -1280px -720px
     }
+}
+marquee {
+    font-size: 40px;
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+}
+main, footer {
+    color: rgb(245, 247, 247); /*Teen Titans Go Booty Scooty's text's white*/
+    background: rgba(0, 0, 0, 0.8); /*Makes the background black with 80% opacity*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .alerts {
     padding-left: 50px;
@@ -49,7 +50,7 @@ h1 {
     padding-bottom: 10px;
 }
 .welcomecenter {
-    font-size: 2vw;
+    font-size: 55pt;
     word-wrap: break-word;
     text-align: center;
 }
@@ -64,6 +65,9 @@ h1 {
     padding-bottom: 50px;
     padding-right: 40%;
     text-align: right;
+}
+.electrumscreenshots {
+    border-radius: 5px;
 }
 .topindex {
     margin-top: 0px;
@@ -106,5 +110,5 @@ a {
 ul {
     text-align: left;
     list-style-position:inside;
-    color: white;
+    color: rgb(245, 247, 247);
 }
