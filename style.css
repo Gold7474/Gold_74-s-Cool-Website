@@ -36,6 +36,9 @@ main, footer {
     color: gray;
     border: dotted 1px;
 }
+.newsdate {
+    margin-top: 0px;
+}
 .center {
     display: block;
     margin-left: auto;
