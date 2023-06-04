@@ -23,8 +23,15 @@ main, footer {
     color: rgb(245, 247, 247); /*Teen Titans Go Booty Scooty's text's white*/
     background: rgba(0, 0, 0, 0.8); /*Makes the background black with 80% opacity*/
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
+}
+.averageimages {
+    max-width: 100%;
+    max-height: 100%;
+}
+.fitscreen {
+    max-width: 100%;
+    max-height: 100%;
 }
 .alerts {
     padding-left: 50px;
@@ -62,6 +69,8 @@ h1 {
 }
 .videopadding {
     padding-bottom: 50px;
+    max-width: 100%;
+    max-height: 100%;
 }
 .electrumprogress {
     padding-top: 50px;
@@ -71,22 +80,16 @@ h1 {
 }
 .electrumscreenshots {
     border-radius: 5px;
+    max-width: 45%;
 }
 .topindex {
     margin-top: 0px;
-    height: 51px;
-    width: 100%;
     background:rgba(0, 0, 0, 0.9);
     color: black;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }
-.allbuttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.allbuttons { /*Makes all buttons centered*/
+    text-align: center;
 }
 .indexbuttons {
     border: none;
@@ -101,7 +104,7 @@ h1 {
     text-decoration: none;
     border-radius: 5px;
 }
-.indexbuttons:hover {
+.indexbuttons:hover { /*Makes the buttons change color when hovered over*/
     background-color: gray;
 }
 /*a {
@@ -114,4 +117,7 @@ ul {
     text-align: left;
     list-style-position:inside;
     color: rgb(245, 247, 247);
+}
+li {
+    line-break: strict; /*Makes the text not break in the middle of a word, but also not extend the page on mobile.*/
 }
