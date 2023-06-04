@@ -107,6 +107,9 @@ h1 {
 .indexbuttons:hover { /*Makes the buttons change color when hovered over*/
     background-color: gray;
 }
+.namelinebreak {
+    word-wrap: break-word;
+}
 /*a {
     text-decoration: none;
     color: inherit;
@@ -117,7 +120,4 @@ ul {
     text-align: left;
     list-style-position:inside;
     color: rgb(245, 247, 247);
-}
-li {
-    line-break: anywhere; /*Makes the text not break in the middle of a word if needed*/
 }
