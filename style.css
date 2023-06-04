@@ -119,5 +119,5 @@ ul {
     color: rgb(245, 247, 247);
 }
 li {
-    line-break: strict; /*Makes the text not break in the middle of a word, but also not extend the page on mobile.*/
+    line-break: anywhere; /*Makes the text not break in the middle of a word if needed*/
 }
