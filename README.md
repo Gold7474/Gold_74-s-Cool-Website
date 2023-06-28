@@ -1,3 +1,3 @@
 # teentitansgopooptimebootyscooty
 Project website. <br> <br>
-Link: https://teentitansgopooptimebootyscooty.beauty/
+Link: https://teentitansgoplopplopbootyscootyburgerburritowaffles.online
