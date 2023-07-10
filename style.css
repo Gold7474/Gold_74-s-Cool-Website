@@ -110,6 +110,10 @@ h1 {
 .namelinebreak {
     word-wrap: break-word;
 }
+.burgervsburritobackground {
+   background: url(images/burgervsburritobg.png) no-repeat center center fixed;
+   background-size: cover;
+}
 /*a {
     text-decoration: none;
     color: inherit;
