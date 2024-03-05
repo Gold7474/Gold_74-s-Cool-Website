@@ -1,6 +1,6 @@
 /*Makes the background of the page have repeating gifs and move up and to the left*/
 body {
-    background-image: url("https://cdn.discordapp.com/attachments/834524238047739994/1124183551999492116/newwebsitebg.gif");
+    background-image: url(images/websitebg.gif);
     animation: bgScroll 20s linear infinite;
     margin: 0;
     padding: 0;
