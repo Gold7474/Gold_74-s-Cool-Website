@@ -1,7 +1,8 @@
 /*Makes the background of the page have repeating gifs and move up and to the left*/
 body {
-    background-image: url(images/websitebg.gif);
-    animation: bgScroll 20s linear infinite;
+   /* background-image: url(images/websitebg.gif);
+    animation: bgScroll 20s linear infinite; */
+    background-color: gold;
     margin: 0;
     padding: 0;
 }
@@ -20,8 +21,9 @@ marquee {
     display: block;
 }
 main, footer {
-    color: rgb(245, 247, 247); /*Teen Titans Go Booty Scooty's text's white*/
-    background: rgba(0, 0, 0, 0.8); /*Makes the background black with 80% opacity*/
+    color: rgb(255, 255, 255); /*Teen Titans Go Booty Scooty's text's white*/
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /*Teen Titans Go Booty Scooty's text's shadow*/
+    background: rgba(0, 0, 0, 0.3); /*Makes the background black with 80% opacity*/
     text-align: center;
     max-width: 100%;
 }
@@ -60,7 +62,7 @@ h1 {
     padding-bottom: 10px;
 }
 .welcomecenter {
-    font-size: 55pt;
+    font-size: 90pt;
     word-wrap: break-word;
     text-align: center;
 }
@@ -106,6 +108,24 @@ h1 {
 }
 .indexbuttons:hover { /*Makes the buttons change color when hovered over*/
     background-color: gray;
+}
+.tournamentbuttons {
+    border: none;
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 15%;
+    height: 15%;
+}
+.tournamentbuttons:hover { /*Makes the buttons change color when hovered over*/
+    filter: grayscale(100%);
 }
 .namelinebreak {
     word-wrap: break-word;
