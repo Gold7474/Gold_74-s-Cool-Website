@@ -10,6 +10,15 @@
         <meta property="og:description" content="Gold_74's Cool Website's Home Page">
         <meta property="og:type" content="">
         <meta property="og:image" content="">
+
+        <style>
+            #welcomebackground {
+                width: 100%;
+                background-size: cover;
+                background-position: center;
+            }
+        </style>
+
     </head>
     <body>
         <header>
@@ -21,6 +30,7 @@
                 <button class="indexbuttons" onclick="window.location = '/'">Home</button>
                 <button class="indexbuttons" onclick="window.location = '/epicvideos'">Epic Videos</button>
                 <button class="indexbuttons" onclick="window.location = '/brandon'">Brandon</button>
+                <button class="indexbuttons" onclick="window.location = '/barren'">Barren</button>
                 <button class="indexbuttons" onclick="window.location = '/fallguyswins'">Fall Guys Win Counter</button>
                 <button class="indexbuttons" onclick="window.location = '/tournaments'">Tournaments</button>
                 <button class="indexbuttons" onclick="window.location = '/electrum'">Electrum</button>
@@ -31,18 +41,47 @@
         </header>
         <main>
             <!--Welcome text-->
-            <h1><span style="font-size: 40pt;">WELCOME TO</span><br><span class="welcomecenter"><b><a title="Famous cool guy">GOLD_74</a>'S COOL WEBSITE</b></span></h1>
-            <!--<audio controls autoplay loop><source src="music/poopsong.wav" type="audio/wav"></audio>-->
+            <div id="welcomebackground">
+                <!--Random background image script-->
+                <script>
+                    (function() {
+                        //Array of image URLs and their vertical positions
+                        var images = [
+                            {url: 'images/tytus_love.gif', position: 'center 48%'},
+                            {url: 'images/kayden2.png', position: 'center 100%'},
+                            {url: 'images/applepie.png', position: 'center 70%'},
+                            {url: 'images/alexis_nobg.png', position: 'center 48%'},
+                            {url: 'images/alexis_n_boogie.jpg', position: 'center 40%'},
+                            {url: 'images/brandon/brandon_boardwalk.jpg', position: 'center 70%'},
+                            {url: 'images/brandon/brandon_golfing.jpg', position: 'center 46%'},
+                            {url: 'images/brandon/brandon_christmas_headshot.jpg', position: 'center 70%'},
+                            {url: 'images/brandon/brandon_smiling_down_at_phone_in_school.jpeg', position: 'center 58%'},
+                            {url: 'images/brandon/wifi_wifey.gif', position: 'center 37%'},
+                        ];
+            
+                        // Randomly select an image
+                        var randomImage = images[Math.floor(Math.random() * images.length)];
+            
+                        // Get the div and set its background image
+                        var div = document.getElementById('welcomebackground');
+                        div.style.backgroundImage = 'url(' + randomImage.url + ')';
+                        div.style.backgroundPosition = randomImage.position;
+                    })();
+                </script>
+                <h1><span style="font-size: 40pt;">WELCOME TO</span><br><span class="welcomecenter"><b><a title="Famous cool guy">GOLD_74</a>'S COOL WEBSITE</b></span></h1>
+                <!--<audio controls autoplay loop><source src="music/poopsong.wav" type="audio/wav"></audio>-->
+                <br>
+            </div>
 
             <!--Cool Features section-->
-            <h1 style="font-size: 70pt; text-align: left; padding-left: 2%; padding-top: 5%;"><u>COOL FEATURES:</u></h1>
+            <h1 style="font-size: 70pt; text-align: left; padding-left: 2%; padding-top: 1%;"><u>COOL FEATURES:</u></h1>
             <ol style="text-align: left; padding-left: 5%; font-size: 30pt;">
                 <li><span style="font-size: 50pt;"><b><u><a href="/videos" style="color: white;">Epic Videos</a></u></b></span> - Watch some cool videos!</li>
                 <li><span style="font-size: 50pt;"><b><u><a href="/fallguyswins" style="color: white;">Fall Guys Win Counter</a></u></b></span> - Keep track of Gold_74's Fall Guys wins!</li>
                 <li><span style="font-size: 50pt;"><b><u><a href="/tournaments" style="color: white;">Tournaments</a></u></b></span> - Check the results of past Gold_74 tournaments or watch the bracket live!</li>
                 <li><span style="font-size: 50pt;"><b><u><a href="/electrum" style="color: white;">Pokemon Electrum Progress</a></u></b></span> - Will Gold_74 ever finish developing Pokemon Electrum? Find out here!</li>
                 <li><span style="font-size: 50pt;"><b><u><a href="/socials" style="color: white;">Gold_74's Socials</a></u></b></span> - Join the trillions of Gold_74 fans across the globe!</li>
-                <li class="namelinebreak"><span style="font-size: 50pt;"><b><u><a href="/about" style="color: white;">About</a></u></b></span> - Learn about our purpose!</li>
+                <li class="namelinebreak"><span style="font-size: 50pt;"><b><u><a href="/about" style="color: white;">About</a></u></b></span> - Learn about this website's purpose!</li>
             </ol>
 
             <!--Important Video section-->
